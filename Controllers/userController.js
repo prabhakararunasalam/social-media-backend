@@ -1,7 +1,7 @@
 import User from "../Models/authModel.js";
 import cloudinary from "../Config/cloudinary.js";
 import Notification from "../Models/notificationModel.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { fileURLToPath } from "url";
 import path from "path";
 import fs from 'fs';

@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors(
     {
-        origin: "https://social-media-platform-frontend.vercel.app",
+        origin: "http://localhost:5173",
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     }
